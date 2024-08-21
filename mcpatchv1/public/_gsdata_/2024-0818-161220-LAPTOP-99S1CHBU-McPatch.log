@@ -1,0 +1,32 @@
+2024-08-18 16:12:22: -- 分析开始 On File Change, After Delay
+2024-08-18 16:12:23: 右侧: 同步需要磁盘 https://domi.teracloud.jp 上的空间应为 1.81 MB, 而可用空间大小未知
+2024-08-18 16:12:23: 变更：3， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 48
+2024-08-18 16:12:23: Left to Right: Copy File: 3 
+2024-08-18 16:12:23: == 同步开始由 On File Change, After Delay
+2024-08-18 16:12:23: ConnectCloned connected to file:///C:/Users/Long/Desktop/mcpatch/mcpatchv1/public
+2024-08-18 16:12:23: ConnectCloned connected to file:///C:/Users/Long/Desktop/mcpatch/mcpatchv1/public
+2024-08-18 16:12:23: ConnectCloned connected to file:///C:/Users/Long/Desktop/mcpatch/mcpatchv1/public
+2024-08-18 16:12:23: GsConnectAndSetRoot1 connected to https://domi.teracloud.jp/dav/public
+2024-08-18 16:12:24: GsConnectAndSetRoot1 connected to https://domi.teracloud.jp/dav/public
+2024-08-18 16:12:24: GsConnectAndSetRoot1 connected to https://domi.teracloud.jp/dav/public
+2024-08-18 16:12:24: > 新建复制 'C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/1.0.2.1.mcpatch.zip' -> 'https://domi.teracloud.jp/dav/public/1.0.2.1.mcpatch.zip' (1,809,560)
+2024-08-18 16:12:24: Waiting for 0+4(120) sec on verb CopyFileSimple: CloseUpload: [requesting Basic auth]: 
+2024-08-18 16:12:24: Waiting for 0+4(120) sec on verb CopyFileSimple: CloseUpload: [requesting Basic auth]: 
+2024-08-18 16:12:25: Waiting for 1+4(120) sec on verb CopyFileSimple: CloseUpload: [requesting Basic auth]: 
+2024-08-18 16:12:28: Recovered the connection, continuing operations
+2024-08-18 16:12:28: Recovered the connection, continuing operations
+2024-08-18 16:12:28: Waiting for 0+8(120) sec on verb CopyFileSimple: CloseUpload: Unexpected EOF when reading reply
+2024-08-18 16:12:28: Waiting for 0+8(120) sec on verb CopyFileSimple: CloseUpload: Unexpected EOF when reading reply
+2024-08-18 16:12:29: Recovered the connection, continuing operations
+2024-08-18 16:12:29: Waiting for 0+8(120) sec on verb CopyFileSimple: CloseUpload: Unexpected EOF when reading reply
+2024-08-18 16:12:37: Recovered the connection, continuing operations
+2024-08-18 16:12:37: Recovered the connection, continuing operations
+2024-08-18 16:12:37: 新建复制 'C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/1.0.2.2.mcpatch.zip' -> 'https://domi.teracloud.jp/dav/public/1.0.2.2.mcpatch.zip' (287)
+2024-08-18 16:12:37: 覆盖复制 'C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/versions.txt' -> 'https://domi.teracloud.jp/dav/public/versions.txt' (27)
+2024-08-18 16:12:38: Recovered the connection, continuing operations
+2024-08-18 16:12:39: < 新建复制 'C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/1.0.2.1.mcpatch.zip' -> 'https://domi.teracloud.jp/dav/public/1.0.2.1.mcpatch.zip' (1,809,560)
+2024-08-18 16:12:39: 保持文件状态 C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/_gsdata_/_file_state_v4._gs
+2024-08-18 16:12:39: Waiting for 0+4(120) sec on verb CopyFileSimple: CloseUpload: Unexpected EOF when reading reply
+2024-08-18 16:12:43: Recovered the connection, continuing operations
+2024-08-18 16:12:44: 保持文件状态 https://domi.teracloud.jp/dav/public/_gsdata_/_file_state_v4._gs
+2024-08-18 16:12:45: == 同步完成. 历时: 00:00:22, 速度: 90.89 KB/s, 完成: 3, 错误: 0

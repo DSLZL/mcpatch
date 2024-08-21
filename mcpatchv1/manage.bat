@@ -1,0 +1,1 @@
+java -jar McPatchManage-1.1.15.jar & pause

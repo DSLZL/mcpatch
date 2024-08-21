@@ -1,0 +1,202 @@
+{
+	id: "0B046F7C78DF8A9A"
+	group: ""
+	order_index: 1
+	filename: "0B046F7C78DF8A9A"
+	title: "第一章：原始资本积累"
+	icon: "create:crushing_wheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["29017185F1B1241C"]
+			id: "1136B72D969ADEC1"
+			tasks: [{
+				id: "58C7467258D59921"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["04AF4C735F8450E4"]
+			id: "508B647D329E074F"
+			tasks: [{
+				id: "65BCB866D660A90D"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["1136B72D969ADEC1"]
+			id: "4025E1D50099336A"
+			tasks: [{
+				id: "52332C97E629841F"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["72E42B1DD22FEB1B"]
+			id: "29017185F1B1241C"
+			tasks: [{
+				id: "765974C13B25E54E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["4025E1D50099336A"]
+			id: "04AF4C735F8450E4"
+			tasks: [{
+				id: "6242655F71F28A33"
+				type: "item"
+				item: "mekanism:nugget_steel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["508B647D329E074F"]
+			id: "53961AC711ABCED0"
+			tasks: [{
+				id: "0D07AB3F12BC692F"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["0F5B3A71844F15FF"]
+			id: "68678BDB28678B77"
+			tasks: [{
+				id: "0AB227C6A9D57390"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "0F5B3A71844F15FF"
+			tasks: [{
+				id: "5F8ACFD2B30A451E"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["68678BDB28678B77"]
+			id: "4B4BE715B5478197"
+			tasks: [{
+				id: "4D8700A8C667FEA8"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["4B4BE715B5478197"]
+			id: "07D48F668DE59D2E"
+			tasks: [{
+				id: "05854C377DBAE2EA"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["07D48F668DE59D2E"]
+			id: "42AF088AAD98C7E4"
+			tasks: [{
+				id: "678003CEA008509A"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["42AF088AAD98C7E4"]
+			id: "4685BAC98EFE1B89"
+			tasks: [{
+				id: "3C4BCD5E297D2ECE"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["4685BAC98EFE1B89"]
+			id: "33187285D97FFD55"
+			tasks: [{
+				id: "1A7C51E1956AABEC"
+				type: "item"
+				item: "chemlib:molybdenum_nugget"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["53961AC711ABCED0"]
+			id: "317387BE74DD69FD"
+			tasks: [{
+				id: "5BB04E6640CD561F"
+				type: "item"
+				item: "create:shaft"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "2D063830F7E226D3"
+			tasks: [
+				{
+					id: "194023AC1D3266C8"
+					type: "item"
+					item: "createdieselgenerators:pumpjack_crank"
+				}
+				{
+					id: "1B01363327CD03D7"
+					type: "item"
+					item: "createdieselgenerators:pumpjack_head"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "7DCC73E2BFB57255"
+			tasks: [{
+				id: "1CCB3EBA6A18D70E"
+				type: "item"
+				item: "createdieselgenerators:crude_oil_bucket"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

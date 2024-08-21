@@ -1,0 +1,505 @@
+{
+	id: "28C2CF74460C6ED4"
+	group: ""
+	order_index: 0
+	filename: "28C2CF74460C6ED4"
+	title: "序章：来自星河"
+	icon: "exnihilosequentia:crimson_sieve"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "想致富，先撸树"
+			x: 5.0d
+			y: -3.5d
+			hide_text_until_complete: false
+			id: "0F0A454DF1AD24A8"
+			tasks: [{
+				id: "44499D3A47377736"
+				type: "item"
+				title: "Any #minecraft:oak_logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:oak_logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "04EBE1EFE3A69E4E"
+				type: "item"
+				item: "minecraft:birch_sapling"
+			}]
+		}
+		{
+			title: "榨汁"
+			x: 7.0d
+			y: -0.5d
+			dependencies: ["35AFC91114C0F1D7"]
+			hide_text_until_complete: true
+			id: "57FC74CB2A61F95D"
+			tasks: [{
+				id: "0B43D0FDC76C4220"
+				type: "item"
+				title: "Any #excompressum:crucibles/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "excompressum:crucibles/wooden"
+					}
+				}
+			}]
+			rewards: [{
+				id: "720C59735ABFF3BA"
+				type: "item"
+				item: "minecraft:oak_leaves"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["35AFC91114C0F1D7"]
+			hide_text_until_complete: true
+			id: "5CB3F8B7B825AF51"
+			tasks: [{
+				id: "0C0F809B0A29DAA4"
+				type: "item"
+				title: "Any #exnihilosequentia:barrels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:barrels"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F525FDA024F2588"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 16
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["0F0A454DF1AD24A8"]
+			hide_text_until_complete: true
+			id: "15FAE498DE9BCD4F"
+			tasks: [{
+				id: "6D1868C6EEFEABF1"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:wooden_crook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["15FAE498DE9BCD4F"]
+			hide_text_until_complete: true
+			id: "484EDBD147D2AB28"
+			tasks: [{
+				id: "1413562DA2D13C3A"
+				type: "item"
+				item: "exnihilosequentia:silkworm"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["484EDBD147D2AB28"]
+			hide_text_until_complete: true
+			id: "03EA9476CFFF3706"
+			tasks: [{
+				id: "5EA933EC50C47047"
+				type: "item"
+				title: "Any #exnihilosequentia:sieves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:sieves"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["2D9E67A94FCF3478"]
+			hide_text_until_complete: true
+			id: "48EA372E5D07550B"
+			tasks: [{
+				id: "64BE46E639A998C7"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["48EA372E5D07550B"]
+			hide_text_until_complete: true
+			id: "1395134C361DCA50"
+			tasks: [{
+				id: "3378309527D3925A"
+				type: "item"
+				title: "Any #exnihilosequentia:hammer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:hammer"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["1395134C361DCA50"]
+			hide_text_until_complete: true
+			id: "64DE0559D2B17C29"
+			tasks: [{
+				id: "49DE58DADB4CD11E"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["64DE0559D2B17C29"]
+			hide_text_until_complete: true
+			id: "2B8DEB02ADFFE462"
+			tasks: [{
+				id: "4B70BFA70BD9DF6F"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			shape: "diamond"
+			description: ["注意！该任务一但提交就会强制下雨"]
+			dependencies: ["2B8DEB02ADFFE462"]
+			hide_text_until_complete: true
+			id: "69149C7FE0A785A2"
+			tasks: [{
+				id: "1E89DCD13106424C"
+				type: "item"
+				item: "exnihilosequentia:dust"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4EFFD1020BAB4E61"
+					type: "command"
+					auto: "invisible"
+					command: "/weather storm"
+				}
+				{
+					id: "29D9292F8F145446"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			shape: "diamond"
+			description: ["使用木桶或者石桶露天放置接雨水"]
+			dependencies: ["69149C7FE0A785A2"]
+			hide_text_until_complete: true
+			id: "786FD04D922559A9"
+			tasks: [{
+				id: "6CE6B286F23FFA3A"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["786FD04D922559A9"]
+			hide_text_until_complete: true
+			id: "19F76F043AB059EE"
+			tasks: [{
+				id: "4CE9688517C9ADBF"
+				type: "item"
+				item: "exnihilosequentia:unfired_crucible"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			shape: "gear"
+			dependencies: ["19F76F043AB059EE"]
+			size: 1.05d
+			id: "2A363981EAE6099A"
+			tasks: [{
+				id: "72E42B1DD22FEB1B"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "70AF416BA17D1C06"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["03EA9476CFFF3706"]
+			hide_text_until_complete: true
+			id: "35AFC91114C0F1D7"
+			tasks: [{
+				id: "20C874999AF99C43"
+				type: "item"
+				item: "minecraft:oak_leaves"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: [
+				"03EA9476CFFF3706"
+				"5CB3F8B7B825AF51"
+			]
+			id: "2D9E67A94FCF3478"
+			tasks: [{
+				id: "3EC0F8AC58BCE60F"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			shape: "rsquare"
+			dependencies: ["03EA9476CFFF3706"]
+			hide_text_until_complete: true
+			id: "0D5972BCC152B2DE"
+			tasks: [{
+				id: "62B5DCABD815C906"
+				type: "item"
+				item: "exnihilosequentia:string_mesh"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["0D5972BCC152B2DE"]
+			hide_text_until_complete: true
+			id: "59C61F3DBE4F6CBB"
+			tasks: [{
+				id: "2EEEE39707929F51"
+				type: "item"
+				item: "exnihilosequentia:flint_mesh"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			shape: "rsquare"
+			dependencies: ["59C61F3DBE4F6CBB"]
+			hide_text_until_complete: true
+			id: "6BB4B157D082CDF9"
+			tasks: [{
+				id: "3C28463664EBFA09"
+				type: "item"
+				item: "exnihilosequentia:iron_mesh"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["6BB4B157D082CDF9"]
+			hide_text_until_complete: true
+			id: "5707C1812E141D40"
+			tasks: [{
+				id: "7D632D30F850A7F2"
+				type: "item"
+				item: "exnihilosequentia:diamond_mesh"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			shape: "rsquare"
+			dependencies: ["5707C1812E141D40"]
+			hide_text_until_complete: true
+			id: "1A4B261FFD18D654"
+			tasks: [{
+				id: "24D484744E5CB5D4"
+				type: "item"
+				item: "exnihilosequentia:emerald_mesh"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["1A4B261FFD18D654"]
+			hide_text_until_complete: true
+			id: "43E42DD7076122CE"
+			tasks: [{
+				id: "280846AA9AF0D027"
+				type: "item"
+				item: "exnihilosequentia:netherite_mesh"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			dependencies: ["2A363981EAE6099A"]
+			hide_text_until_complete: true
+			id: "5E0A12180EEC479E"
+			tasks: [{
+				id: "353C73E433756B14"
+				type: "item"
+				item: "exnihilosequentia:stone_barrel"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			shape: "hexagon"
+			dependencies: ["2D9E67A94FCF3478"]
+			hide_text_until_complete: true
+			id: "2BB2DC31105205C4"
+			tasks: [{
+				id: "421EDE63FA61C120"
+				type: "item"
+				item: "exnihilosequentia:mycelium_spores"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			shape: "hexagon"
+			dependencies: ["2BB2DC31105205C4"]
+			hide_text_until_complete: true
+			id: "1046B45A8CA3CAF0"
+			tasks: [{
+				id: "519276921D61E9E4"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			shape: "hexagon"
+			dependencies: ["2BB2DC31105205C4"]
+			hide_text_until_complete: true
+			id: "47DEDCEFAD95AEBC"
+			tasks: [{
+				id: "0025B1C4194CD297"
+				type: "item"
+				item: "minecraft:slime_block"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["2BB2DC31105205C4"]
+			hide_text_until_complete: true
+			id: "09C7737E08229456"
+			tasks: [{
+				id: "637DF62CE0AED7B7"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["2BB2DC31105205C4"]
+			hide_text_until_complete: true
+			id: "7C44BBA0BC8DD173"
+			tasks: [{
+				id: "593C9BA17594D5C1"
+				type: "item"
+				item: "minecraft:soul_soil"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			dependencies: ["5E0A12180EEC479E"]
+			hide_text_until_complete: true
+			id: "25800072F6DCC341"
+			tasks: [{
+				id: "6C4135105FF1D418"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			dependencies: ["5E0A12180EEC479E"]
+			hide_text_until_complete: true
+			id: "27AAC11C45EFA32A"
+			tasks: [{
+				id: "0587AF1F8A6D0FCF"
+				type: "item"
+				item: "minecraft:end_stone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: [
+				"7C44BBA0BC8DD173"
+				"09C7737E08229456"
+			]
+			id: "6F27C147BB443477"
+			tasks: [{
+				id: "13570625DAC01879"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["09C7737E08229456"]
+			hide_text_until_complete: true
+			id: "55BDF85E4F7C2B29"
+			tasks: [{
+				id: "1BD55147179B10DF"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

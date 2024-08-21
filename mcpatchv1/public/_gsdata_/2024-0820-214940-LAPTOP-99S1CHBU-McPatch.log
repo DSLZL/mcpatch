@@ -1,0 +1,5 @@
+2024-08-20 21:49:42: -- 分析开始 On File Change, After Delay
+2024-08-20 21:49:43: 右侧: 同步需要磁盘 https://domi.teracloud.jp 上的空间应为 25.25 MB, 而可用空间大小未知
+2024-08-20 21:49:43: 变更：3， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 48
+2024-08-20 21:49:43: Left to Right: Copy File: 3 
+2024-08-20 21:49:43: Free Version limitation: Auto-Run of Jobs is not allowed: Activate Paid Version of GoodSync from Purchased License and run Job again

@@ -1,0 +1,26 @@
+2024-08-19 12:30:42: -- 分析开始 On File Change, After Delay
+2024-08-19 12:30:43: 右侧: 同步需要磁盘 https://domi.teracloud.jp 上的空间应为 9.01 MB, 而可用空间大小未知
+2024-08-19 12:30:43: 变更：2， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 48
+2024-08-19 12:30:43: Left to Right: Copy File: 2 
+2024-08-19 12:30:43: == 同步开始由 On File Change, After Delay
+2024-08-19 12:30:43: Start only 2 threads, limited by tasks to run
+2024-08-19 12:30:43: ConnectCloned connected to file:///C:/Users/Long/Desktop/mcpatch/mcpatchv1/public
+2024-08-19 12:30:43: ConnectCloned connected to file:///C:/Users/Long/Desktop/mcpatch/mcpatchv1/public
+2024-08-19 12:30:44: GsConnectAndSetRoot1 connected to https://domi.teracloud.jp/dav/public
+2024-08-19 12:30:44: GsConnectAndSetRoot1 connected to https://domi.teracloud.jp/dav/public
+2024-08-19 12:30:44: > 新建复制 'C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/1.0.4.mcpatch.zip' -> 'https://domi.teracloud.jp/dav/public/1.0.4.mcpatch.zip' (9,010,989)
+2024-08-19 12:30:44: Waiting for 0+4(120) sec on verb CopyFileSimple: CloseUpload: [requesting Basic auth]: 
+2024-08-19 12:30:48: Recovered the connection, continuing operations
+2024-08-19 12:30:48: Waiting for 0+8(120) sec on verb CopyFileSimple: CloseUpload: Unexpected EOF when reading reply
+2024-08-19 12:30:50: Waiting for 0+4(120) sec on verb CopyFileSimple: CloseUpload: [requesting Basic auth]: 
+2024-08-19 12:30:54: Recovered the connection, continuing operations
+2024-08-19 12:30:57: Recovered the connection, continuing operations
+2024-08-19 12:30:58: 覆盖复制 'C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/versions.txt' -> 'https://domi.teracloud.jp/dav/public/versions.txt' (39)
+2024-08-19 12:31:13: Waiting for 19+8(120) sec on verb CopyFileSimple: UploadBuf: [SSL sending [-1] domi.teracloud.jp:443]: Connection was aborted due to timeout or other failure
+2024-08-19 12:31:22: Recovered the connection, continuing operations
+2024-08-19 12:31:29: < 新建复制 'C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/1.0.4.mcpatch.zip' -> 'https://domi.teracloud.jp/dav/public/1.0.4.mcpatch.zip' (9,010,989)
+2024-08-19 12:31:29: 保持文件状态 C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/_gsdata_/_file_state_v4._gs
+2024-08-19 12:31:29: Waiting for 0+4(120) sec on verb CopyFileSimple: CloseUpload: Unexpected EOF when reading reply
+2024-08-19 12:31:34: Recovered the connection, continuing operations
+2024-08-19 12:31:34: 保持文件状态 https://domi.teracloud.jp/dav/public/_gsdata_/_file_state_v4._gs
+2024-08-19 12:31:34: == 同步完成. 历时: 00:00:51, 速度: 180.30 KB/s, 完成: 2, 错误: 0

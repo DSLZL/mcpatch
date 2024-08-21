@@ -1,0 +1,177 @@
+{
+	id: "71F4F50AEAF54B15"
+	group: ""
+	order_index: 2
+	filename: "71F4F50AEAF54B15"
+	title: "第二章：工业革命"
+	icon: "pneumaticcraft:pressure_gauge"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "39F5A9AD78FDC0D8"
+			tasks: [{
+				id: "05DDBFBC0E2C9C8C"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "6E85D9485315751A"
+			tasks: [{
+				id: "193C3F75EA22D172"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "20D7D66DC15FAEF7"
+			tasks: [{
+				id: "20C046021EAABA35"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_wall"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "6DB8FE1BB23E3CFE"
+			tasks: [{
+				id: "0F1A26DDF9CCB609"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "71B7A0F3255B67BA"
+			tasks: [{
+				id: "179F05DD52C4159B"
+				type: "item"
+				item: "pneumaticcraft:refinery"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "582C9A398ABD607F"
+			tasks: [{
+				id: "6CD7D93064617D50"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "0F7E76A6F3006115"
+			tasks: [{
+				id: "37E15AE29B91C6AA"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "555C766EB230A45E"
+			tasks: [
+				{
+					id: "0903581125550122"
+					type: "item"
+					item: "pneumaticcraft:plastic_bucket"
+				}
+				{
+					id: "16F3E29BCE6706AD"
+					type: "item"
+					item: "pneumaticcraft:plastic"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "2BADE04541F34A8E"
+			tasks: [
+				{
+					id: "514A1D784BBC4623"
+					type: "item"
+					item: "immersiveengineering:component_iron"
+				}
+				{
+					id: "78A604F95BF4C843"
+					type: "item"
+					item: "immersiveengineering:component_steel"
+				}
+			]
+		}
+		{
+			title: "电弧炉"
+			x: 2.0d
+			y: 3.0d
+			id: "59BD857192705619"
+			tasks: [
+				{
+					id: "608034A40773DA59"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "3FE08A41AE8671C1"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "1BB78FA59E88DFC6"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "13CDC876E23B5C95"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "168EEC0B1225BF01"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "07E7EC572230B6D7"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "3E7B20E90036EB6E"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "00FDF052C5305C3E"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "4AF713FDFF2B1E1D"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

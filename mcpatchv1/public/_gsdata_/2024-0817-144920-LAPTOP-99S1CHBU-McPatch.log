@@ -1,0 +1,57 @@
+2024-08-17 14:49:22: -- 分析开始 On File Change, After Delay
+2024-08-17 14:49:22: 左侧: State File has changed, so re-read it: C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/_gsdata_/_file_state_v4._gs
+2024-08-17 14:49:22: 左侧: 正在读取文件状态 C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/_gsdata_/_file_state_v4._gs
+2024-08-17 14:49:22: 左侧: State file does not exist: C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/_gsdata_/_file_state_v4._gs
+2024-08-17 14:49:22: 右侧: 同步需要磁盘 https://domi.teracloud.jp 上的空间应为 -101.03 MB, 而可用空间大小未知
+2024-08-17 14:49:22: 变更：40， 冲突：0， 复制时间：0， 复制状态：5， 错误： 0, All: 46
+2024-08-17 14:49:22: Left to Right: Delete File: 40 
+2024-08-17 14:49:22: == 同步开始由 On File Change, After Delay
+2024-08-17 14:49:22: ConnectCloned connected to file:///C:/Users/Long/Desktop/mcpatch/mcpatchv1/public
+2024-08-17 14:49:22: ConnectCloned connected to file:///C:/Users/Long/Desktop/mcpatch/mcpatchv1/public
+2024-08-17 14:49:22: ConnectCloned connected to file:///C:/Users/Long/Desktop/mcpatch/mcpatchv1/public
+2024-08-17 14:49:23: GsConnectAndSetRoot1 connected to https://domi.teracloud.jp/dav/public
+2024-08-17 14:49:23: GsConnectAndSetRoot1 connected to https://domi.teracloud.jp/dav/public
+2024-08-17 14:49:23: GsConnectAndSetRoot1 connected to https://domi.teracloud.jp/dav/public
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.1.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.3.1.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.2.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.3.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.4.1.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.4.2.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.4.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.5.1.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.5.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.6.1.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.6.2.mcpatch.zip
+2024-08-17 14:49:23: 删除文件 https://domi.teracloud.jp/dav/public/1.0.6.3.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.6.4.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.6.5.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.6.6.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.7.1.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.6.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.7.2.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.7.3.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.8.1.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.7.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.8.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.0.9.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.0.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.1.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.2.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.3.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.4.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.5.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.6.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.8.1.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.7.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.9.1.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.9.2.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.1.9.mcpatch.zip
+2024-08-17 14:49:24: 删除文件 https://domi.teracloud.jp/dav/public/1.2.0.1.mcpatch.zip
+2024-08-17 14:49:25: 删除文件 https://domi.teracloud.jp/dav/public/1.2.0.mcpatch.zip
+2024-08-17 14:49:25: 删除文件 https://domi.teracloud.jp/dav/public/1.2.1.mcpatch.zip
+2024-08-17 14:49:25: 删除文件 https://domi.teracloud.jp/dav/public/1.1.8.mcpatch.zip
+2024-08-17 14:49:25: 删除文件 https://domi.teracloud.jp/dav/public/versions.txt
+2024-08-17 14:49:25: 保持文件状态 C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/_gsdata_/_file_state_v4._gs
+2024-08-17 14:49:25: 保持文件状态 https://domi.teracloud.jp/dav/public/_gsdata_/_file_state_v4._gs
+2024-08-17 14:49:27: == 同步完成. 历时: 00:00:05, 速度: 218.45 KB/s, 完成: 45, 错误: 0

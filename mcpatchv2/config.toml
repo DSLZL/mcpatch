@@ -1,0 +1,10 @@
+# 要排除的文件规则，格式为正则表达式，暂时不支持Glob表达式
+# 匹配任意一条规则时，文件就会被忽略（忽略：管理端会当这个文件不存在一般）
+# 编写规则时可以使用check命令快速调试是否生效
+exclude-rules = []
+
+# 上传脚本的模板文件
+upload-script-template = "upload-template.txt"
+
+# 上传脚本的输出文件
+upload-script-output = "upload.txt"
