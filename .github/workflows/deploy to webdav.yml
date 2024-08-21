@@ -16,5 +16,5 @@ jobs:
         url: ${{ secrets.WEBDAV_URL }}
         username: ${{ secrets.WEBDAV_USERNAME }}
         password: ${{ secrets.WEBDAV_PASSWORD }}
-        local: "./"
-        remote: "remote_directory/"
+        local: "./mcpatchv1/public"
+        remote: "remote_directory/public"
