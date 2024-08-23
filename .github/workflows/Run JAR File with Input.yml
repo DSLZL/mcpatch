@@ -17,12 +17,13 @@ jobs:
           echo "::set-output name=latest_version::$latest_version"
       - name: Run JAR with Input
         run: |
+          cd mcpatchv1 # 切换到 mcpatchv1 文件夹
           latest_version=$(echo ${{ steps.get_latest_version.outputs.latest_version }})
           major=$(echo $latest_version | cut -d'.' -f1)
           minor=$(echo $latest_version | cut -d'.' -f2)
           patch=$(echo $latest_version | cut -d'.' -f3)
           next_version="$major.$minor.$(($patch + 1))"
-          echo "c" | echo "1.0.$next_version" | echo "y" | echo "y" | java -jar target/McPatchManage-1.1.15.jar 
+          echo "c" | echo "1.0.$next_version" | echo "y" | echo "y" | java -jar McPatchManage-1.1.15.jar 
       - name: Update Version File
         run: |
           echo "$next_version" > .version
