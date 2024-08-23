@@ -1,0 +1,30 @@
+name: Run JAR File with Input
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-jar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build JAR
+        run: mvn package # 如果你的项目使用 Maven 构建
+      - name: Get Latest Version from mcpatchv1/public
+        id: get_latest_version
+        run: |
+          latest_version=$(ls mcpatchv1/public/*.zip | sort -r | head -n 1 | cut -d'.' -f1-3 | cut -d'_' -f1)
+          echo "::set-output name=latest_version::$latest_version"
+      - name: Run JAR with Input
+        run: |
+          latest_version=$(echo ${{ steps.get_latest_version.outputs.latest_version }})
+          major=$(echo $latest_version | cut -d'.' -f1)
+          minor=$(echo $latest_version | cut -d'.' -f2)
+          patch=$(echo $latest_version | cut -d'.' -f3)
+          next_version="$major.$minor.$(($patch + 1))"
+          echo "c" | echo "1.0.$next_version" | echo "y" | echo "y" | java -jar target/McPatchManage-1.1.15.jar 
+      - name: Update Version File
+        run: |
+          echo "$next_version" > .version
