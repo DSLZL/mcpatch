@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Build JAR
-        run: mvn package # 如果你的项目使用 Maven 构建
       - name: Get Latest Version from mcpatchv1/public
         id: get_latest_version
         run: |
