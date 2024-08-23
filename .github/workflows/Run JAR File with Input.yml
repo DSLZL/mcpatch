@@ -23,7 +23,8 @@ jobs:
           minor=$(echo $latest_version | cut -d'.' -f2)
           patch=$(echo $latest_version | cut -d'.' -f3)
           next_version="$major.$minor.$(($patch + 1))"
-          echo "c" | echo "1.0.$next_version" | echo "y" | echo "y" | java -jar McPatchManage-1.1.15.jar 
+          # 保持三位数的版本号
+          echo "c" | echo "$next_version" | echo "y" | echo "y" | java -jar McPatchManage-1.1.15.jar 
       - name: Update Version File
         run: |
           echo "$next_version" > .version
