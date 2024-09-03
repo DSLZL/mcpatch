@@ -15,6 +15,8 @@ jobs:
         run: |
           latest_version=$(ls mcpatchv1/public/*.zip | sort -r | head -n 1 | cut -d'.' -f1-3 | cut -d'_' -f1)
           echo "::set-output name=latest_version::$latest_version"
+      - name: Install expect
+        run: sudo apt-get update && sudo apt-get install expect
       - name: Run JAR with Input
         run: |
           cd mcpatchv1 # 切换到 mcpatchv1 文件夹
