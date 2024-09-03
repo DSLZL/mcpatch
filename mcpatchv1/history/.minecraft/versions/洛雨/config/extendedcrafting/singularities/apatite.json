@@ -1,0 +1,10 @@
+{
+  "name": "磷",
+  "colors": [
+    "95FCFC",
+    "9a9ca6"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/apatite"
+  }
+}

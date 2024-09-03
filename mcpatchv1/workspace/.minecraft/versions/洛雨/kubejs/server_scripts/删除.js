@@ -5,6 +5,7 @@ onEvent('recipes', event => {
     event.smelting('ae2:silicon','ae2:certus_quartz_dust');
       // 删除-输出
       const outputsToRemove = [
+          'minecraft:sea_pickle',
           'ae2extras:cell_component_1m',
           'ae2:tiny_tnt',
           'ae2:silicon',
@@ -89,7 +90,9 @@ onEvent('recipes', event => {
           'pneumaticcraft:printed_circuit_board',
           'tconstruct:scorched_brick',
           'tconstruct:seared_brick',
-          'tconstruct:scorched_anvil'
+          'tconstruct:scorched_anvil',
+          'industrialforegoing:pink_slime_ingot',
+          'extendedcrafting:ultimate_singularity'
       ];
       outputsToRemove.forEach(output => removeRecipeByOutput(event, output));
       // 删除-输入
@@ -123,8 +126,11 @@ onEvent('recipes', event => {
       event.remove({ id: 'pneumaticcraft:thermo_plant/plastic_from_lpg' });
       event.remove({ id: 'pneumaticcraft:thermo_plant/plastic_from_biodiesel' });
       event.remove({ id: 'pneumaticcraft:thermo_plant/lpg' });
+      event.remove({ id: 'create:crushing/diorite' });
+      event.remove({ id: 'create:crushing/diorite_recycling' });
       // 删除模组配方
-      event.remove({ mod: 'chemlib' });
       event.remove({ mod: 'alchemistry' });
       event.remove({ mod: 'solarpanels' });
+      event.remove({ mod: 'tacz' });
+      event.remove({ mod: 'prma' });
     });

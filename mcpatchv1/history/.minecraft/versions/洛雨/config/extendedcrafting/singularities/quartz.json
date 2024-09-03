@@ -1,0 +1,10 @@
+{
+  "name": "石英",
+  "colors": [
+    "F4F2EF",
+    "8a0901"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/quartz"
+  }
+}

@@ -1,4 +1,14 @@
 onEvent('recipes', event => {
+    event.recipes.create.crushing([//缤纷彩石
+        Item.of('minecraft:raw_iron').withChance(0.5), 
+        Item.of('minecraft:raw_copper').withChance(0.5), 
+        Item.of('minecraft:raw_gold').withChance(0.5), 
+        Item.of('mekanism:raw_osmium').withChance(0.5), 
+        Item.of('mekanism:raw_tin').withChance(0.5), 
+        Item.of('create:raw_zinc').withChance(0.5), 
+        Item.of('immersiveengineering:raw_lead').withChance(0.5), 
+        Item.of('immersiveengineering:raw_silver').withChance(0.5), 
+        Item.of('ewcraft:bingfengcaishi').withChance(1.00)], 'ewcraft:bingfengcaishi');
     event.recipes.create.crushing([
         Item.of('create:cinder_flour').withChance(1.00),
         Item.of('create:cinder_flour').withChance(0.50)], 'exnihilosequentia:crushed_netherrack');
@@ -29,7 +39,7 @@ onEvent('recipes', event => {
         Item.of('exnihilosequentia:blackstone_pebble').withChance(0.2), 
         Item.of('exnihilosequentia:diorite_pebble').withChance(0.2), 
         Item.of('exnihilosequentia:granite_pebble').withChance(0.2), 
-        Item.of('nuclearcraft:boron_nugget').withChance(0.95)], 'ewcraft:suipengkuang');
+        Item.of('chemlib:thorium_nugget').withChance(0.95)], 'ewcraft:suitukuang');
     event.recipes.create.crushing([
         Item.of('exnihilosequentia:stone_pebble').withChance(0.2), 
         Item.of('exnihilosequentia:andesite_pebble').withChance(0.2), 
@@ -37,15 +47,7 @@ onEvent('recipes', event => {
         Item.of('exnihilosequentia:blackstone_pebble').withChance(0.2), 
         Item.of('exnihilosequentia:diorite_pebble').withChance(0.2), 
         Item.of('exnihilosequentia:granite_pebble').withChance(0.2), 
-        Item.of('nuclearcraft:thorium_nugget').withChance(0.95)], 'ewcraft:suitukuang');
-    event.recipes.create.crushing([
-        Item.of('exnihilosequentia:stone_pebble').withChance(0.2), 
-        Item.of('exnihilosequentia:andesite_pebble').withChance(0.2), 
-        Item.of('exnihilosequentia:basalt_pebble').withChance(0.2), 
-        Item.of('exnihilosequentia:blackstone_pebble').withChance(0.2), 
-        Item.of('exnihilosequentia:diorite_pebble').withChance(0.2), 
-        Item.of('exnihilosequentia:granite_pebble').withChance(0.2), 
-        Item.of('nuclearcraft:lithium_nugget').withChance(0.95)], 'ewcraft:suilikuang');
+        Item.of('chemlib:lithium_nugget').withChance(0.95)], 'ewcraft:suilikuang');
     event.recipes.create.crushing([
         Item.of('exnihilosequentia:stone_pebble').withChance(0.2), 
         Item.of('exnihilosequentia:andesite_pebble').withChance(0.2), 

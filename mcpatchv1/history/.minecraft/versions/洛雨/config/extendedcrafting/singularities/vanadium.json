@@ -1,0 +1,10 @@
+{
+  "name": "钒",
+  "colors": [
+    "5E6FC1",
+    "232323"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/vanadium"
+  }
+}

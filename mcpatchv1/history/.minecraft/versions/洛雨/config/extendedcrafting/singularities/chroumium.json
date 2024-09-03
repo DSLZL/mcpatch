@@ -1,0 +1,10 @@
+{
+  "name": "硼",
+  "colors": [
+    "9E9E9E",
+    "232323"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/boron"
+  }
+}

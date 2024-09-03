@@ -1,0 +1,6 @@
+2024-08-21 12:50:04: -- 分析开始 On File Change, After Delay
+2024-08-21 12:50:04: Deleted abandoned lock file at https://domi.teracloud.jp/dav/public
+2024-08-21 12:50:05: 右侧: 同步需要磁盘 https://domi.teracloud.jp 上的空间应为 60.41 MB, 而可用空间大小未知
+2024-08-21 12:50:05: 变更：4， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 48
+2024-08-21 12:50:05: Left to Right: Copy File: 4 
+2024-08-21 12:50:05: Free Version limitation: Auto-Run of Jobs is not allowed: Activate Paid Version of GoodSync from Purchased License and run Job again

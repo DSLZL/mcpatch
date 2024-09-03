@@ -1,0 +1,10 @@
+{
+  "name": "钨",
+  "colors": [
+    "51555C",
+    "9a9ca6"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/tungsten"
+  }
+}

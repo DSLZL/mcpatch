@@ -161,7 +161,7 @@ onEvent('recipes', event => {
         sequence: [
            {type: 'create:deploying',ingredients: [
               {item: 'create:incomplete_precision_mechanism'},
-              {tag: '#forge:storage_blocks/steel'}],
+              {tag: 'forge:storage_blocks/steel'}],
             results: [{item: 'create:incomplete_precision_mechanism'}]},
            {type: 'create:deploying',ingredients: [
               {item: 'create:incomplete_precision_mechanism'},
@@ -173,12 +173,11 @@ onEvent('recipes', event => {
             results: [{item: 'create:incomplete_precision_mechanism'}]},
            {type: 'create:deploying',ingredients: [
               {item: 'create:incomplete_precision_mechanism'},
-              {tag: '#forge:storage_blocks/osmium'}],
+              {tag: 'forge:storage_blocks/osmium'}],
             results: [{item: 'create:incomplete_precision_mechanism'}]},
         ],
         results: [
-          {item: 'mekanism:steel_casing',chance: 80.0},
-          {item: 'industrialforegoing:machine_frame_advanced',chance: 20.0},
+          {item: 'mekanism:steel_casing',chance: 100.0}
         ],
         loops: 2
     });

@@ -1,0 +1,10 @@
+{
+  "name": "硝石",
+  "colors": [
+    "CEC4C4",
+    "9a9ca6"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/niter"
+  }
+}

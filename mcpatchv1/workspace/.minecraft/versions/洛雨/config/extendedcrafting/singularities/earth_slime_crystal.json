@@ -1,0 +1,10 @@
+{
+  "name": "大地粘液水晶",
+  "colors": [
+    "568F4E",
+    "232323"
+  ],
+  "ingredient": {
+    "item": "tconstruct:earth_slime_crystal"
+  }
+}

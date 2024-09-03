@@ -1,0 +1,10 @@
+{
+  "name": "铬",
+  "colors": [
+    "465756",
+    "232323"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/chromium"
+  }
+}

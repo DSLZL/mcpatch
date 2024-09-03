@@ -1,0 +1,7 @@
+2024-08-24 12:36:45: -- 分析开始 On File Change First Full Analyze Upon Folder Connect
+2024-08-24 12:36:45: 左侧: 正在读取文件状态 C:/Users/Long/Desktop/mcpatch/mcpatchv1/public/_gsdata_/_file_state_v4._gs
+2024-08-24 12:36:46: 右侧: 正在读取文件状态 https://domi.teracloud.jp/dav/public/_gsdata_/_file_state_v4._gs
+2024-08-24 12:36:46: 右侧: 同步需要磁盘 https://domi.teracloud.jp 上的空间应为 62.84 MB, 而可用空间大小未知
+2024-08-24 12:36:46: 变更：11， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 49
+2024-08-24 12:36:46: Left to Right: Copy File: 11 
+2024-08-24 12:36:46: Free Version limitation: Auto-Run of Jobs is not allowed: Activate Paid Version of GoodSync from Purchased License and run Job again

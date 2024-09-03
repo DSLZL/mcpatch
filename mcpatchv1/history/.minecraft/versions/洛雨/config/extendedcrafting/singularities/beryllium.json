@@ -1,0 +1,10 @@
+{
+  "name": "铍",
+  "colors": [
+    "5FD877",
+    "232323"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/beryllium"
+  }
+}

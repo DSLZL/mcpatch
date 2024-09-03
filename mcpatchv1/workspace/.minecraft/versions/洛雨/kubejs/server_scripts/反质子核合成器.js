@@ -1,8 +1,32 @@
 onEvent('recipes', event => {
+    event.custom({//虚空水晶
+        type:'mekanism:nucleosynthesizing',
+        itemInput:{ingredient:{item:'ewcraft:wendingshuijin'}},
+        gasInput:{amount:1000,gas:'mekanism:antimatter'},
+        output:{item:'ewcraft:xukongshuijin'},duration:1250
+    });
     event.custom({//龙心
         type:'mekanism:nucleosynthesizing',
         itemInput:{ingredient:{item:'draconicevolution:draconium_block'}},
         gasInput:{amount:500,gas:'mekanism:antimatter'},
         output:{item:'draconicevolution:dragon_heart'},duration:1250
+    });
+    event.custom({//母矿
+        type:'mekanism:nucleosynthesizing',
+        itemInput:{ingredient:{item:'minecraft:stone'}},
+        gasInput:{amount:1000,gas:'mekanism:antimatter'},
+        output:{item:'ewcraft:mukuang'},duration:1250
+    });
+    event.custom({//彩虹石
+        type:'mekanism:nucleosynthesizing',
+        itemInput:{ingredient:{item:'ewcraft:caihongsuipian'}},
+        gasInput:{amount:1000,gas:'mekanism:antimatter'},
+        output:{item:'ewcraft:caihongshi'},duration:1250
+    });
+    event.custom({//铀饼
+        type:'mekanism:nucleosynthesizing',
+        itemInput:{ingredient:{tag:'forge:ingots/lead'}},
+        gasInput:{amount:1,gas:'mekanism:antimatter'},
+        output:{item:'ewcraft:youbing'},duration:600
     });
 });

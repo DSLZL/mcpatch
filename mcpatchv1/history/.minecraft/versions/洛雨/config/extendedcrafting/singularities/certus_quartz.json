@@ -1,0 +1,10 @@
+{
+  "name": "赛特斯石英",
+  "colors": [
+    "B8D8FC",
+    "261e24"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/certus_quartz"
+  }
+}

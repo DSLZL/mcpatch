@@ -1,0 +1,10 @@
+{
+  "name": "钍",
+  "colors": [
+    "2B2B2B",
+    "232323"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/thorium"
+  }
+}

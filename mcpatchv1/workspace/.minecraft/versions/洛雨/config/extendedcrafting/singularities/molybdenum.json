@@ -1,0 +1,10 @@
+{
+  "name": "钼",
+  "colors": [
+    "6777D1",
+    "232323"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/molybdenum"
+  }
+}

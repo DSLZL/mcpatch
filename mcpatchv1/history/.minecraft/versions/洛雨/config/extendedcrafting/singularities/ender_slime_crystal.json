@@ -1,0 +1,10 @@
+{
+  "name": "末影粘液水晶",
+  "colors": [
+    "69457C",
+    "232323"
+  ],
+  "ingredient": {
+    "item": "tconstruct:ender_slime_crystal"
+  }
+}

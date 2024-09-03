@@ -1,0 +1,10 @@
+{
+  "name": "灵浆水晶",
+  "colors": [
+    "D05100",
+    "232323"
+  ],
+  "ingredient": {
+    "item": "tconstruct:ichor_slime_crystal"
+  }
+}

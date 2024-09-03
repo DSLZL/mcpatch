@@ -3,6 +3,110 @@ onEvent('recipes', event => {
         {
             type: 'createsifter:sifting',
             ingredients: [
+                {item: 'ewcraft:xukongshuijin'},
+                {item: 'createsifter:custom_mesh'}
+            ],
+            results: [
+                {item: 'ewcraft:xukongshuijin', chance: 1.00},
+                {item: 'thermal:apatite', chance: 0.5},
+                {item: 'thermal:cinnabar', chance: 0.5},
+                {item: 'thermal:niter', chance: 0.5},
+                {item: 'thermal:sulfur', chance: 0.5},
+                {item: 'minecraft:quartz', chance: 0.5},
+                {item: 'ae2:certus_quartz_crystal', chance: 0.5},
+                {item: 'minecraft:emerald', chance: 0.5},
+                {item: 'minecraft:coal', chance: 0.5},
+                {item: 'minecraft:redstone', chance: 0.5},
+                {item: 'minecraft:lapis_lazuli', chance: 0.5},
+                {item: 'minecraft:diamond', chance: 0.5},
+                {item: 'minecraft:glowstone_dust', chance: 0.5},
+                {item: 'tconstruct:ichor_slime_crystal', chance: 0.5},
+                {item: 'tconstruct:sky_slime_crystal', chance: 0.5},
+                {item: 'tconstruct:ender_slime_crystal', chance: 0.5},
+                {item: 'tconstruct:earth_slime_crystal', chance: 0.5},
+                {item: 'minecraft:amethyst_shard', chance: 0.5}
+            ],
+            processingTime: 500,
+            waterlogged: true
+        },
+        {
+            type: 'createsifter:sifting',
+            ingredients: [
+                {item: 'ewcraft:caihongshi'},
+                {item: 'createsifter:custom_mesh'}
+            ],
+            results: [
+                {item: 'ewcraft:caihongshi', chance: 1.00},
+                {item: '8x exnihilosequentia:tin_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:silver_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:lead_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:nickel_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:copper_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:gold_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:iron_pieces', chance: 0.9}, 
+                {item: '8x exnihilomekanism:osmium_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:aluminum_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:platinum_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:zinc_pieces', chance: 0.9}, 
+                {item: '8x exnihilosequentia:uranium_pieces', chance: 0.9}, 
+                {item: '8x ewcraft:suilikuang', chance: 0.9}, 
+                {item: '8x ewcraft:suipikuang', chance: 0.9}, 
+                {item: '8x ewcraft:suimeikuang', chance: 0.9}, 
+                {item: '8x ewcraft:suitaikuang', chance: 0.9}, 
+                {item: '8x ewcraft:suifankuang', chance: 0.9}, 
+                {item: '8x ewcraft:suigekuang', chance: 0.9}, 
+                {item: '8x ewcraft:suimengkuang', chance: 0.9}, 
+                {item: '8x ewcraft:suigukuang', chance: 0.9}, 
+                {item: '8x ewcraft:suimukuang', chance: 0.9}, 
+                {item: '8x ewcraft:suipengkuang', chance: 0.9}, 
+                {item: '8x ewcraft:suitukuang', chance: 0.9}, 
+                {item: '8x ewcraft:suiwukuang', chance: 0.9}
+            ],
+            processingTime: 500,
+            waterlogged: true
+        },
+        {
+            type: 'createsifter:sifting',
+            ingredients: [
+                {item: 'ewcraft:bingfengcaishi'},
+                {item: 'createsifter:custom_mesh'}
+            ],
+            results: [
+                {item: 'ewcraft:bingfengcaishi', chance: 1.00},
+                {item: 'minecraft:raw_iron', chance: 0.5}, 
+                {item: 'minecraft:raw_copper', chance: 0.5}, 
+                {item: 'minecraft:raw_gold', chance: 0.5}, 
+                {item: 'mekanism:raw_osmium', chance: 0.5}, 
+                {item: 'mekanism:raw_tin', chance: 0.5}, 
+                {item: 'create:raw_zinc', chance: 0.5}, 
+                {item: 'immersiveengineering:raw_lead', chance: 0.5}, 
+                {item: 'immersiveengineering:raw_silver', chance: 0.5}
+            ],
+            processingTime: 500,
+            waterlogged: true
+        },
+        {
+            type: 'createsifter:sifting',
+            ingredients: [
+                {item: 'minecraft:gravel'},
+                {item: 'createsifter:zinc_mesh'}
+            ],
+            results: [
+                {item: 'exnihilosequentia:nickel_pieces', chance: 0.15},
+                {item: 'exnihilosequentia:platinum_pieces', chance: 0.05},
+                {item: 'exnihilosequentia:andesite_pebble', chance: 0.2},
+                {item: 'exnihilosequentia:basalt_pebble', chance: 0.2},
+                {item: 'exnihilosequentia:blackstone_pebble', chance: 0.2},
+                {item: 'exnihilosequentia:diorite_pebble', chance: 0.2},
+                {item: 'exnihilosequentia:granite_pebble', chance: 0.2},
+                {item: 'exnihilosequentia:stone_pebble', chance: 0.2}
+            ],
+            processingTime: 500,
+            waterlogged: true
+        },
+        {
+            type: 'createsifter:sifting',
+            ingredients: [
                 {item: 'minecraft:gravel'},
                 {item: 'createsifter:zinc_mesh'}
             ],

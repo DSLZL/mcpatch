@@ -2,6 +2,22 @@ function addShapedRecipe(event, result, pattern, ingredients) {    event.shaped(
 
 onEvent('recipes', event => {
 const shapedRecipes = [
+    {result: 'ewcraft:caihongfangkuai', 
+        pattern: ['AAA', 
+                  'ABA', 
+                  'AAA'], 
+        ingredients: {
+                A: 'botania:bifrost_perm',
+                B: 'ewcraft:caihongshi'
+        }},
+    {result: 'ewcraft:wuxiashuijin', 
+        pattern: ['AAA', 
+                  'ABA', 
+                  'AAA'], 
+        ingredients: {
+                A: 'botania:bifrost_perm',
+                B: 'ewcraft:xukongshuijin'
+        }},
     {result: 'solarpanels:light_absorbing_solar_element', 
         pattern: ['AAA', 
                   'ABA', 
@@ -146,32 +162,6 @@ const shapedRecipes = [
         ingredients: {
                 A: '#forge:storage_blocks/steel',
                 B: 'minecraft:polished_andesite'
-        }},
-    {result: 'nuclearcraft:chassis', //机械外壳
-        pattern: ['ABA', 
-                  'BCB', 
-                  'ABA'], 
-        ingredients: {
-                A: '#forge:ingots/steel',
-                B: 'nuclearcraft:tough_alloy_ingot',
-                C: 'thermal:machine_frame'
-        }},
-    {result: 'nuclearcraft:steel_frame', //钢机壳
-        pattern: ['ABA', 
-                  'BCB', 
-                  'ABA'], 
-        ingredients: {
-                A: '#forge:ingots/steel',
-                B: 'nuclearcraft:tough_alloy_ingot',
-                C: 'nuclearcraft:chassis'
-        }},
-    {result: 'nuclearcraft:plate_basic', //基础板
-        pattern: ['AB ', 
-                  'BA ', 
-                  '   '], 
-        ingredients: {
-                A: '#forge:ingots/steel',
-                B: 'pneumaticcraft:plastic'
         }},
     {result: 'minecraft:clock', //钟
         pattern: [' A ', 

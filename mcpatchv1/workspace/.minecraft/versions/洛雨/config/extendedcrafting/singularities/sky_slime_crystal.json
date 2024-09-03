@@ -1,0 +1,10 @@
+{
+  "name": "碧空粘液水晶",
+  "colors": [
+    "62AAA9",
+    "232323"
+  ],
+  "ingredient": {
+    "item": "tconstruct:sky_slime_crystal"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "锰",
+  "colors": [
+    "C5E4C3",
+    "232323"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/manganese"
+  }
+}
