@@ -1,0 +1,42 @@
+name: Run JAR File with Input
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-jar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Get Latest Version from mcpatchv1/public
+        id: get_latest_version
+        run: |
+          latest_version=$(ls mcpatchv1/public/*.zip | sort -r | head -n 1 | cut -d'.' -f1-3 | cut -d'_' -f1)
+          echo "::set-output name=latest_version::$latest_version"
+      - name: Run JAR with Input
+        run: |
+          cd mcpatchv1 # 切换到 mcpatchv1 文件夹
+          latest_version=$(echo ${{ steps.get_latest_version.outputs.latest_version }})
+          major=$(echo $latest_version | cut -d'.' -f1)
+          minor=$(echo $latest_version | cut -d'.' -f2)
+          patch=$(echo $latest_version | cut -d'.' -f3)
+          next_version="$major.$minor.$(($patch + 1))"
+
+          # 使用 expect 模拟输入
+          expect -c "
+            spawn java -jar McPatchManage-1.1.15.jar
+            expect \"c\"
+            send \"c\r\"
+            expect \"Enter the new version number\"
+            send \"$next_version\r\"
+            expect \"Are you sure you want to create a new version?\"
+            send \"y\r\"
+            expect \"Are you sure you want to overwrite existing files?\"
+            send \"y\r\"
+            interact
+          "
+      - name: Update Version File
+        run: |
+          echo "$next_version" > .version
