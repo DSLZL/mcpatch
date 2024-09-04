@@ -13,7 +13,7 @@ jobs:
       - name: Get Latest Version from mcpatchv1/public
         id: get_latest_version
         run: |
-          latest_version=$(ls mcpatchv1/public/*.zip | sort -r | head -n 1 | cut -d'.' -f1-3 | cut -d'_' -f1)
+          latest_version=$(ls mcpatchv1/public/*.zip | sort -r | head -n 1 | cut -d'_' -f1 | cut -d'.' -f1-3)
           echo "::set-output name=latest_version::$latest_version"
       - name: Install expect
         run: sudo apt-get update && sudo apt-get install expect
@@ -32,7 +32,7 @@ jobs:
             expect \"c\"
             send \"c\r\"
             expect \"Enter the new version number\"
-            send \"$next_version\r\"
+            send \"$next_version\r\" # 使用 $next_version 变量
             expect \"Are you sure you want to create a new version?\"
             send \"y\r\"
             expect \"Are you sure you want to overwrite existing files?\"
